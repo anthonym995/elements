@@ -33,17 +33,17 @@ const MobileMenu = ({ isOpen, toggleMenu }) => (
           </Link>
         </li>
         <li role="menuitem" className="w-full">
-          <Link href="/about" className="text-gray-600 text-lg font-semibold w-full" onClick={toggleMenu}>
+          <Link href="#about" className="text-gray-600 text-lg font-semibold w-full" onClick={toggleMenu}>
             About
           </Link>
         </li>
         <li role="menuitem" className="w-full">
-          <Link href="/services" className="text-gray-600 text-lg font-semibold w-full" onClick={toggleMenu}>
+          <Link href="#services" className="text-gray-600 text-lg font-semibold w-full" onClick={toggleMenu}>
             Services
           </Link>
         </li>
         <li role="menuitem" className="w-full">
-          <Link href="/contact" className="text-gray-600 text-lg font-semibold w-full" onClick={toggleMenu}>
+          <Link href="#contact" className="text-gray-600 text-lg font-semibold w-full" onClick={toggleMenu}>
             Contact Us
           </Link>
         </li>
@@ -149,17 +149,17 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link href="/about" className="hover:text-[#39B54A]">
+              <Link href="#about" className="hover:text-[#39B54A]">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/services" className="hover:text-[#39B54A]">
+              <Link href="#services" className="hover:text-[#39B54A]">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="hover:text-[#39B54A]">
+              <Link href="#contact" className="hover:text-[#39B54A]">
                 Contact Us
               </Link>
             </li>
