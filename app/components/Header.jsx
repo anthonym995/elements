@@ -116,14 +116,14 @@ const Header = () => {
           <address className="flex flex-wrap gap-4 not-italic text-sm text-gray-600">
             <div className="flex items-center gap-2">
               <PhoneIcon size={16} className="text-[#39B54A]" aria-hidden="true" />
-              <a href="tel:9943567955" className="hover:text-gray-800">
-                9943567955
+              <a href="tel:097665 07529" className="hover:text-gray-800">
+                097665 07529
               </a>
             </div>
             <div className="flex items-center gap-2">
               <MailIcon size={16} className="text-[#39B54A]" aria-hidden="true" />
-              <a href="mailto:contact@example.com" className="hover:text-gray-800">
-                contact@example.com
+              <a href="mailto:raj.arokia4@gmail.com" className="hover:text-gray-800">
+                raj.arokia4@gmail.com
               </a>
             </div>
           </address>

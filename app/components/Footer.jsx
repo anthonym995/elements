@@ -17,11 +17,11 @@ const Footer = () => {
             <div className="flex flex-col gap-1.5">
               <div className="flex items-center gap-2">
                 <PhoneIcon />
-                <p className="text-base font-normal tracking-tight">9943567955</p>
+                <p className="text-base font-normal tracking-tight">+91 7387216128</p>
               </div>
               <div className="flex items-center gap-2">
                 <MailIcon />
-                <p className="text-base font-normal tracking-tight">contact@example.com</p>
+                <p className="text-base font-normal tracking-tight">raj.arokia4@gmail.com</p>
               </div>
             </div>
           </div>

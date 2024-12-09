@@ -14,9 +14,8 @@ const ContactSection = () => {
         <header className="text-center flex flex-col items-center gap-5">
           <h3 className="text-[#333333] text-base font-semibold uppercase mt-4">Contact</h3>
           <h2 className="text-[#333333] font-montserrat text-4xl font-bold ">Get in touch</h2>
-          <p className="text-[#333333] text-base font-normal max-w-3xl">
-            Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer
-            elementum id sem. Arcu sed malesuada et magna.
+          <p className="text-[#333333] text-base font-normal">
+            Get in touch with us today to schedule an appointment or learn more about how our services can benefit you.
           </p>
         </header>
 
@@ -28,8 +27,8 @@ const ContactSection = () => {
               <PhoneIcon size={24} />
             </div>
             <div className="Number flex flex-col justify-center items-center gap-1.5">
-              <p className="text-center text-black text-lg font-normal ">+1-316-555-0116</p>
-              <p className="text-center text-black text-lg font-normal ">+1-446-526-0117</p>
+              <p className="text-center text-black text-lg font-normal ">+91 7387216128</p>
+              <p className="text-center text-black text-lg font-normal "> 097665 07529</p>
             </div>
           </div>
 
@@ -39,8 +38,8 @@ const ContactSection = () => {
               <MailIcon size={24} />
             </div>
             <div className="Number flex flex-col justify-center items-center gap-1.5">
-              <p className="text-center text-black text-lg font-normal ">contact@example.com</p>
-              <p className="text-center text-black text-lg font-normal ">hr@example.com</p>
+              <p className="text-center text-black text-lg font-normal ">raj.arokia4@gmail.com</p>
+              <p className="text-center text-black text-lg font-normal ">rajarokia4@gmail.com</p>
             </div>
           </div>
 
@@ -50,7 +49,7 @@ const ContactSection = () => {
               <LocationIcon size={30} />
             </div>
             <address className="text-center text-black text-lg font-normal not-italic">
-              8502 Preston Rd. Ingle, Maine 98380, USA
+              Dmello Vaddo, Anjuna, Goa 403509
             </address>
           </div>
         </div>
