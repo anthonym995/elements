@@ -46,7 +46,7 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <article
               key={index}
-              className="TeamGridItem w-[340px] bg-white rounded-md shadow p-5 flex flex-col items-center"
+              className="TeamGridItem w-80 bg-white rounded-md shadow p-5 flex flex-col items-center"
             >
               <div className="ImageFrame w-full h-48 rounded-lg mb-5 flex items-center justify-center overflow-hidden">
                 <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
