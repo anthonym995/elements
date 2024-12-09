@@ -80,7 +80,7 @@ const Header = () => {
     <header className="w-full bg-white">
       {/* Address Bar Section */}
       <section className="border-b border-gray-200 hidden md:flex">
-        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-2">
+        <div className="container mx-auto flex flex-col md:flex-row items-center justify-between py-2">
           {/* Social Media Icons */}
           <div className="flex gap-4" aria-label="Social Media Links">
             <a
@@ -135,7 +135,7 @@ const Header = () => {
         ref={navRef}
         className={`bg-white z-50 transition-all duration-30 ${isSticky ? "fixed top-0 shadow-md" : "relative"} w-full`}
       >
-        <div className="container mx-auto flex justify-between items-center px-6 py-3">
+        <div className="container mx-auto flex justify-between items-center py-3">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
             <Image src="/images/3elements.png" alt="Company Logo" width={200} height={0} className="w-40" />

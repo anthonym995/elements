@@ -19,7 +19,7 @@ const AboutSection = () => {
             <div className="w-full">
               <header className="mb-6">
                 <h2 className="text-[#333333] text-base font-semibold  uppercase leading-tight">About</h2>
-                <h3 className="text-[#0e0e0e] text-2xl md:text-4xl font-bold leading-snug tracking-wider mt-2">
+                <h3 className="text-[#0e0e0e] font-montserrat text-2xl md:text-4xl font-bold leading-snug tracking-wider mt-2">
                   3 Elements Healthcare
                 </h3>
               </header>

@@ -48,7 +48,7 @@ const TestimonialSection = () => {
         {/* Section Title */}
         <header className="SectionTitle text-center mb-12">
           <h3 className="text-[#333333] text-base font-semibold uppercase ">Testimonials</h3>
-          <h2 className="text-[#333333] text-4xl font-bold leading-10">What our Clients Say</h2>
+          <h2 className="text-[#333333] font-montserrat text-4xl font-bold leading-10">What our Clients Say</h2>
           <p className="text-[#333333] text-base font-normal leading-normal mt-4">
             There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in
             some form.

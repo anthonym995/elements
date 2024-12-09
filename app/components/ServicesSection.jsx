@@ -35,7 +35,7 @@ const ServicesSection = () => {
         {/* Section Title */}
         <header className="SectionTitle text-center mb-12">
           <h3 className="text-[#333333] text-base font-semibold uppercase">Services</h3>
-          <h2 className="text-[#333333] text-4xl font-bold leading-10 mb-5">What We Offer</h2>
+          <h2 className="text-[#333333] font-montserrat text-4xl font-bold leading-10 mb-5">What We Offer</h2>
           <p className="text-[#333333] text-base font-normal leading-normal mt-4">
             Explore our wide range of holistic services designed for your well-being.
           </p>
@@ -46,15 +46,15 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <article
               key={index}
-              className="TeamGridItem w-80 bg-white rounded-md shadow p-5 flex flex-col items-center"
+              className="TeamGridItem w-[340px] bg-white rounded-md shadow p-5 flex flex-col items-center"
             >
               <div className="ImageFrame w-full h-48 rounded-lg mb-5 flex items-center justify-center overflow-hidden">
                 <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
               </div>
               <div className="Text text-left w-full">
-                <h4 className="text-[#111928] text-base font-semibold  mb-2">{service.title}</h4>
-                <p className="text-[#637381] text-xs font-normal leading-tight mb-4">{service.description}</p>
-                <a href="#" className="text-[#637381] text-xs font-semibold leading-tight">
+                <h4 className="text-[#111928] font-montserrat text-base font-semibold  mb-2">{service.title}</h4>
+                <p className="text-[#637381] text-sm font-normal leading-tight mb-4">{service.description}</p>
+                <a href="#" className="text-[#637381] text-sm font-semibold leading-tight">
                   Read More...
                 </a>
               </div>

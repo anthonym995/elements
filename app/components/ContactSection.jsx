@@ -13,8 +13,8 @@ const ContactSection = () => {
         {/* Heading and Supporting Text */}
         <header className="text-center flex flex-col items-center gap-5">
           <h3 className="text-[#333333] text-base font-semibold uppercase mt-4">Contact</h3>
-          <h2 className="text-[#333333] text-4xl font-bold ">Get in touch</h2>
-          <p className="text-[#333333] text-base font-normal ">
+          <h2 className="text-[#333333] font-montserrat text-4xl font-bold ">Get in touch</h2>
+          <p className="text-[#333333] text-base font-normal max-w-3xl">
             Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer
             elementum id sem. Arcu sed malesuada et magna.
           </p>
