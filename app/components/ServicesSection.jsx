@@ -44,14 +44,11 @@ const ServicesSection = () => {
         {/* Services Content */}
         <div className="flex flex-wrap justify-center gap-10">
           {services.map((service, index) => (
-            <article
-              key={index}
-              className="TeamGridItem w-80 bg-white rounded-md shadow p-5 flex flex-col items-center"
-            >
-              <div className="ImageFrame w-full h-48 rounded-lg mb-5 flex items-center justify-center overflow-hidden">
+            <article key={index} className="TeamGridItem w-80 bg-white rounded-md shadow-md flex flex-col items-center">
+              <div className="ImageFrame w-full h-48 flex rounded-t-md items-center justify-center overflow-hidden">
                 <img src={service.image} alt={service.title} className="w-full h-full object-cover" />
               </div>
-              <div className="Text text-left w-full">
+              <div className="Text text-left w-full p-5">
                 <h4 className="text-[#111928] font-montserrat text-base font-semibold  mb-2">{service.title}</h4>
                 <p className="text-[#637381] text-sm font-normal leading-tight mb-4">{service.description}</p>
                 <a href="#" className="text-[#637381] text-sm font-semibold leading-tight">
