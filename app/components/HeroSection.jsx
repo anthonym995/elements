@@ -58,7 +58,7 @@ const HeroSection = () => {
                   <h1 className="font-montserrat text-white text-4xl lg:text-6xl font-bold leading-tight">
                     {slide.title}
                   </h1>
-                  <p className="Text text-white text-lg lg:text-2xl font-semibold leading-relaxed">
+                  <p className="Text text-white text-lg lg:text-2xl leading-relaxed">
                     {slide.text.split("\n").map((line, i) => (
                       <React.Fragment key={i}>
                         {line}
@@ -70,10 +70,10 @@ const HeroSection = () => {
 
                 <div className="Buttons flex justify-center items-center gap-4 lg:gap-8">
                   <button
-                    className="w-48 lg:w-64 h-12 px-5 lg:px-7 py-3.5 bg-[#39b54a] rounded-full flex justify-center items-center"
+                    className="w-48 lg:w-64 h-12 px-5 lg:px-7 py-3.5 bg-[#39b54a] hover:bg-[#32a043] rounded-full flex justify-center items-center transition duration-300"
                     aria-label={`Action button: ${slide.buttonText}`}
                   >
-                    <span className="Text text-white text-base lg:text-lg font-semibold leading-tight">
+                    <span className="text-white text-base lg:text-lg font-semibold leading-tight">
                       {slide.buttonText}
                     </span>
                   </button>

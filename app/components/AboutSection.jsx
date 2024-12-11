@@ -21,18 +21,18 @@ const AboutSection = () => {
             <div className="w-full">
               <header className="mb-6">
                 <h2 className="text-[#333333] text-base font-semibold  uppercase leading-tight">About</h2>
-                <h3 className="text-[#0e0e0e] font-montserrat text-2xl md:text-4xl font-bold leading-snug tracking-wider mt-2">
+                <h3 className="text-[#0e0e0e] font-montserrat text-2xl md:text-4xl font-bold leading-snug tracking-wider mt-2 mb-8">
                   3 Elements Healthcare
                 </h3>
               </header>
-              <p className="text-[#999191] text-sm md:text-base font-normal leading-relaxed mb-8 max-w-xl">
+              <p className="text-[#999191] md:text-base font-normal leading-relaxed mb-14 max-w-xl">
                 Assist in the physiological conditions and psychosomatic disorders of those who suffer in their daily
                 lives from various factors. 3 Elements Healthcare takes a holistic approach to uncover the root cause
                 before initiating the treatment process, by assessing the patient&apos;s condition and overall health.
                 This ensures that the most appropriate treatments and techniques are used to achieve effective healing.
               </p>
               <div>
-                <a href="/about" className="px-7 py-3 bg-[#39b54a] text-white text-lg font-semibold rounded-full">
+                <a href="/about" className="px-7 py-3 bg-[#39b54a] text-white text-base font-semibold rounded-full">
                   Read more...
                 </a>
               </div>

@@ -33,7 +33,7 @@ const Footer = () => {
               <a href="#home" className="text-sm font-medium hover:underline">
                 Home
               </a>
-              <a href="#about" className="text-sm font-normal hover:underline">
+              <a href="/about" className="text-sm font-normal hover:underline">
                 About
               </a>
               <a href="#services" className="text-sm font-normal hover:underline">
