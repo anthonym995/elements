@@ -3,54 +3,10 @@
 import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { TwitterIcon, InstagramIcon, FacebookIcon, MailIcon, PhoneIcon } from "../assets/icons";
-
-const MobileMenu = ({ isOpen, toggleMenu }) => (
-  <div
-    className={`fixed top-0 left-0 w-full h-screen bg-white shadow-lg z-50 transition-transform duration-300 ${
-      isOpen ? "translate-x-0" : "-translate-x-full"
-    }`}
-  >
-    <div className="container mx-auto px-4">
-      <div className="flex justify-between items-center py-2 border-b">
-        <span className="text-lg font-bold text-gray-800">Menu</span>
-        <button aria-label="Close menu" className="p-2 text-gray-800 focus:outline-none" onClick={toggleMenu}>
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-          </svg>
-        </button>
-      </div>
-      <ul className="flex flex-col items-start gap-6 mt-8" role="menu">
-        <li role="menuitem" className="w-full">
-          <Link href="/" className="text-[#39b54a] text-lg font-semibold w-full" onClick={toggleMenu}>
-            Home
-          </Link>
-        </li>
-        <li role="menuitem" className="w-full">
-          <Link href="/about" className="text-gray-600 text-lg font-semibold w-full" onClick={toggleMenu}>
-            About
-          </Link>
-        </li>
-        <li role="menuitem" className="w-full">
-          <Link href="#services" className="text-gray-600 text-lg font-semibold w-full" onClick={toggleMenu}>
-            Services
-          </Link>
-        </li>
-        <li role="menuitem" className="w-full">
-          <Link href="#contact" className="text-gray-600 text-lg font-semibold w-full" onClick={toggleMenu}>
-            Contact Us
-          </Link>
-        </li>
-      </ul>
-    </div>
-  </div>
-);
+import { TwitterIcon, InstagramIcon, FacebookIcon, MailIcon, PhoneIcon } from "../../assets/icons";
+import MobileMenu from "./MobileMenu";
+import MenuLinks from "./MenuLinks";
+import { menuItems } from "./menuItems";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -133,7 +89,9 @@ const Header = () => {
       {/* Navigation Section */}
       <nav
         ref={navRef}
-        className={`bg-white z-50 transition-all duration-30 ${isSticky ? "fixed top-0 shadow-md" : "relative"} w-full`}
+        className={`bg-white z-50 transition-all duration-300 ${
+          isSticky ? "fixed top-0 shadow-md" : "relative"
+        } w-full`}
       >
         <div className="container mx-auto flex justify-between items-center py-3">
           {/* Logo */}
@@ -143,26 +101,7 @@ const Header = () => {
 
           {/* Desktop Navigation Menu */}
           <ul className="hidden md:flex gap-8 text-base font-medium text-gray-600">
-            <li>
-              <Link href="/" className="hover:text-[#39B54A]">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link href="/about" className="hover:text-[#39B54A]">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link href="#services" className="hover:text-[#39B54A]">
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link href="#contact" className="hover:text-[#39B54A]">
-                Contact Us
-              </Link>
-            </li>
+            <MenuLinks items={menuItems} />
           </ul>
 
           {/* Mobile Menu Icon */}

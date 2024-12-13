@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
 :root {
   --font-roboto: "Roboto", sans-serif;
   --font-montserrat: "Montserrat", sans-serif;
@@ -9,6 +12,10 @@
 
 html {
   @apply font-sans;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

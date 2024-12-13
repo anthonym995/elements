@@ -30,18 +30,18 @@ const Footer = () => {
           <div className="w-full flex flex-col gap-5">
             <h3 className="text-lg font-semibold leading-relaxed">Quick Links</h3>
             <nav className="flex flex-col gap-1.5">
-              <a href="#home" className="text-sm font-medium hover:underline">
+              <Link href="#home" className="text-sm font-medium hover:underline">
                 Home
-              </a>
-              <a href="/about" className="text-sm font-normal hover:underline">
+              </Link>
+              <Link href="/about" className="text-sm font-normal hover:underline">
                 About
-              </a>
-              <a href="#services" className="text-sm font-normal hover:underline">
+              </Link>
+              <Link href="/#services" className="text-sm font-normal hover:underline">
                 Services
-              </a>
-              <a href="#contact" className="text-sm font-normal hover:underline">
+              </Link>
+              <Link href="/#contact" className="text-sm font-normal hover:underline">
                 Contact
-              </a>
+              </Link>
             </nav>
           </div>
 
